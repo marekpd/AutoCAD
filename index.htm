@@ -1,0 +1,729 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=windows-1250">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>index</title>
+</head>
+
+<body background="B_Stone2.gif" bgcolor="#FFFFFF">
+
+<h1 align="center"><font size="6"><img src="AutoCAD.jpg"
+width="470" height="117"></font></h1>
+
+<h1 align="center"><a name="Begin"></a><font size="6">(AutoCAD -
+struèná príruèka)</font></h1>
+
+<ul>
+    <li><a href="#uvod"><font size="4">Úvod</font></a></li>
+    <li><a href="#OvladanieProgramu"><font size="4">Ovládanie
+        programu</font></a></li>
+    <li><a href="#ZakladnePrikazy"><font size="4">Základné
+        príkazy</font></a></li>
+    <li><a href="#UchopenieObjektov"><font size="4">Uchopenie
+        objektov</font></a></li>
+    <li><a href="#Priklady"><font size="4">Príklady</font></a></li>
+</ul>
+
+<p><font size="4"><img src="L_Stones.gif" width="100%"
+height="30"></font></p>
+
+<h1 align="center"><a name="Uvod"></a>Úvod</h1>
+
+<h2>Mierka a jednotky</h2>
+
+<ul>
+    <li>Pokia¾ vytvárame vıkres na papieri, musíme si urèi
+        mierku na zaèiatku kreslenia. </li>
+    <li>V AutoCAD vıkres kreslíme vdy <strong>v skutoènej
+        ve¾kosti</strong> (t.j. digitálny vıkres je v mierke
+        1:1). Pri tlaèení vıkresu na papier v inej mierke
+        túto nastavíme a pred samotnım tlaèením (prièom
+        digitálny vıkres zostáva naïalej v skutoènej
+        ve¾kosti).</li>
+    <li>AutoCAD pouíva tzv. kresliace jednotky (drawing units)
+        a iba na nás (resp. na type dokumentácie) záleí,
+        èi bude táto jednotka predstavova milimeter,
+        centimeter alebo kilometer.</li>
+</ul>
+
+<h2>Hladiny</h2>
+
+<ul>
+    <li>Hladiny <em>(layers)</em> si môeme predstavi ako
+        prieh¾adné vrstvy (<strong>fólie</strong>), ktoré vo
+        vıkrese kladieme na seba. </li>
+    <li>V jednej vrstve môeme kresli napr. obrysové èiary
+        a v inej kóty. Pokia¾ potrebujeme vykresli vıkres
+        napr. bez kót, nemusíme ho maza ale staèí iba
+        vypnú príslušnú vrstvu.</li>
+    <li>Na vıkrese môe pracova viac kreslièov. Stavár
+        nakreslí pôdorys stavby, jeho kolega v ïalšej vrstve
+        navrhne elektroinštaláciu, atï</li>
+    <li>Hladiny je moné vyui aj pre jednotlivé
+        alternatívy v prípade, e je monıch viacej variant
+        riešenia problému.</li>
+</ul>
+
+<h2>Nástroje</h2>
+
+<ul>
+    <li>Pokia¾ kreslíme klasickım spôsobom, pouívame
+        rôzne pomôcky. Pre kreslenie úseèiek <strong>pravítko</strong>,
+        na oblúky a krunice <strong>kruidlo</strong>, na
+        mazanie <strong>gumu</strong>.</li>
+    <li>V AutoCAD nájdeme elektrickú podobu tıchto nástrojov</li>
+    <li>AutoCAD obsahuje aj ïalšie nástroje, napr. Pri
+        kreslení sa môeme chyta na rôzne <strong>dôleité
+        body</strong> nakreslenıch objektov (koniec, stred,
+        prieseèník, ...) alebo rez vyšrafujeme pomocou
+        jedného ukázania.</li>
+</ul>
+
+<h2>Zmeny</h2>
+
+<ul>
+    <li>Na kresliacej doske akáko¾vek chyba znamenala gumovanie
+        a opravu vıkresu, niekedy dokonca celé prekreslenie.</li>
+    <li>V AutoCAD iba opravíme príslušnú èas a môeme
+        pokraèova ïalej.</li>
+    <li>Navyše v AutoCAD máme k dispozícii nástroje pre
+        rôzne spôsoby vytvárania kópií u nakreslenıch
+        objektov.</li>
+</ul>
+
+<p><font size="4"><img src="L_Stones.gif" width="100%"
+height="30"></font></p>
+
+<h1 align="center"><a name="OvladanieProgramu"></a>Ovládanie
+programu</h1>
+
+<h2 align="left">Hlavné okno </h2>
+
+<p align="left">Hlavné okno sa objaví na obrazovke hneï po
+spustení programu AutoCAD. Je zloené z nieko¾kıch prvkov,
+ktoré si postupne rozoberieme.</p>
+
+<p align="left"><img src="MainForm.gif" width="640" height="452"></p>
+
+<hr>
+
+<h2 align="left">Titulok okna</h2>
+
+<p align="left"><img src="Title.gif" width="640" height="18"></p>
+
+<ul>
+    <li>Titulok okna sa nachádza na hornom okraji hlavného
+        okna. </li>
+    <li>V ¾avej èasti je uvedenı <strong>názov otvoreného
+        vıkresu</strong> [Drawing.dwg] s ktorım sa momentálne
+        pracuje. </li>
+    <li>V pravej èasti sú štandardné windowsovské
+        tlaèítka: minimalizaèné, maximalizaèné/obnovovacie,
+        ukonèovacie.</li>
+</ul>
+
+<hr>
+
+<h2 align="left">Menu</h2>
+
+<p align="left"><img src="Menu.gif" width="490" height="20"></p>
+
+<ul>
+    <li>Menu je umiestnené v hornej èasti hlavného okna, hneï
+        pod titulkom okna.</li>
+    <li>Menu je <strong>ponuka</strong> resp. <strong>zoznam
+        všetkıch príkazov </strong>AutoCAD-u v hierarchii. </li>
+    <li>V prvej úrovni obsahuje názvy jednotlivıch pod-ponúk
+        (FILE-práca so súbormi, EDIT-editácia,
+        VIEW-zobrazovanie vıkresu, TOOLS-pomôcky,
+        DRAW-kreslenie na vıkres, MODIFY-zmeny vo vıkrese,
+        ...).</li>
+    <li>Pod-ponuky ïalej obsahujú samotné <a
+        href="#ZakladnePrikazy">príkazy</a> (napr.
+        File/SAVE-uloenie vıkresu na disk, Draw/LINE-kreslenie
+        èiary na vıkres, ...). </li>
+</ul>
+
+<hr>
+
+<h2 align="left">Príkazovı riadok</h2>
+
+<p align="left"><img src="Command.gif" width="632" height="63"></p>
+
+<ul>
+    <li>Okno príkazového riadka je umiestnené v dolnej èasti
+        hlavného okna, ale môe by aj vo¾ne plávajúce.</li>
+    <li>Príkazovı riadok slúi pre zadávanie <a
+        href="#ZakladnePrikazy">príkazov</a> z klávesnice (je
+        ve¾mi èasto pouívanı).</li>
+</ul>
+
+<hr>
+
+<h2 align="left"><a name="StavovaLista"></a>Stavová lišta</h2>
+
+<p align="left"><img src="StatusBar.gif" width="490" height="20"></p>
+
+<ul>
+    <li>Stavová lišta je umiestnená na spodnom okraji
+        hlavného okna.</li>
+    <li>V ¾avej èasti obsahuje <strong>aktuálne súradnice</strong>
+        kurzora myši na vıkrese (X=181.0 a Y=163.1 a pre
+        úplnos Z=0)</li>
+    <li>V pravej èasti sú <strong>tlaèítka</strong> na
+        prepínanie jednotlivıch reimov (<strong>GRID</strong>-zobrazenie
+        mrieky, <strong>ORTHO</strong>-pravouhlé kreslenie, <strong>OSNAP</strong>-<a
+        href="#UchopenieObjektov">prichytávanie</a> na
+        vıznamné body, ...).</li>
+</ul>
+
+<hr>
+
+<h2 align="left">Panely nástrojov</h2>
+
+<p><img src="icoToolbar.gif" width="645" height="33"></p>
+
+<ul>
+    <li>Panely nástrojov sú bloky a obsahujú ikony pre
+        zadávanie jednotlivıch <a href="#ZakladnePrikazy">príkazov</a>.</li>
+    <li>Panely nástrojov môu by <strong>ukotvené</strong>
+        v hornej/¾avej/pravej èasti hlavného okna, alebo sú <strong>vo¾ne
+        plávajúce</strong> v ¾ubovo¾nej èasti okna.</li>
+    <li>AutoCAD R14 obsahuje asi 17 takıchto panelov z ktorıch
+        sú 4 základné.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><font size="4"><img src="L_Stones.gif" width="100%"
+height="30"></font></p>
+
+<h1 align="center"><a name="ZakladnePrikazy"></a>Základné
+príkazy</h1>
+
+<p><strong>Štandardné príkazy</strong> (panel je ukotvenı v
+hornej èasti hlavného okna):</p>
+
+<p><img src="icoToolbar-Standard.gif" width="650" height="52"></p>
+
+<table border="0">
+    <tr>
+        <td><strong>Ikona</strong></td>
+        <td><strong>Príkaz</strong></td>
+        <td><strong>Menu</strong></td>
+        <td><strong>Popis</strong></td>
+    </tr>
+    <tr>
+        <td><img src="icoNew.gif" width="24" height="23"></td>
+        <td>new</td>
+        <td>File/</td>
+        <td>Vytvorí novı vıkres.</td>
+    </tr>
+    <tr>
+        <td><img src="icoOpen.gif" width="24" height="23"></td>
+        <td>open</td>
+        <td>File/</td>
+        <td>Naèíta vıkres z existujúceho vıkresu.</td>
+    </tr>
+    <tr>
+        <td><img src="icoSave.gif" width="24" height="23"></td>
+        <td>qsave</td>
+        <td>File/</td>
+        <td>Uloí aktuálny vıkres do súboru.</td>
+    </tr>
+    <tr>
+        <td><img src="icoPrint.gif" width="24" height="23"></td>
+        <td>plot</td>
+        <td>File/</td>
+        <td>Tlaèiaròou vytlaèí vıkres na papier.</td>
+    </tr>
+    <tr>
+        <td><img src="icoUndo.gif" width="24" height="23"></td>
+        <td>u (undo)</td>
+        <td>Edit/</td>
+        <td>Vráti spä posledne vykonanú operáciu. (stornuje
+        ju)</td>
+    </tr>
+    <tr>
+        <td><img src="icoRedo.gif" width="24" height="23"></td>
+        <td>redo</td>
+        <td>Edit/</td>
+        <td>Vráti spä úèinky posledne vykonanej operácie
+        undo.</td>
+    </tr>
+    <tr>
+        <td><img src="icoPanRealtime.gif" width="24" height="23"></td>
+        <td>pan</td>
+        <td>View/Pan/Realtime</td>
+        <td>Posunie aktuálny vırez zobrazenia vıkresu.</td>
+    </tr>
+    <tr>
+        <td><img src="icoZoomRealtime.gif" width="24" height="23"></td>
+        <td>zoom</td>
+        <td>View/Zoom/Real Time</td>
+        <td>Zmení mierku zobrazenia aktuálneho vırezu
+        vıkresu.</td>
+    </tr>
+</table>
+
+<p><strong>Draw - Kreslenie na vıkres</strong> (panel je
+ukotvenı v ¾avej èasi hlavného okna):</p>
+
+<p><img src="icoToolbar-Draw.gif" width="404" height="52"></p>
+
+<table border="0">
+    <tr>
+        <td><strong>Ikona</strong></td>
+        <td><strong>Príkaz</strong></td>
+        <td><strong>Menu</strong></td>
+        <td><strong>Popis</strong></td>
+    </tr>
+    <tr>
+        <td><img src="icoLine.gif" width="24" height="23"></td>
+        <td>line</td>
+        <td>Draw/Line</td>
+        <td>Nakreslí úseèku (resp. N-uholník).</td>
+    </tr>
+    <tr>
+        <td><img src="icoConstructionLine.gif" width="24"
+        height="23"></td>
+        <td>xline</td>
+        <td>Draw/Construction Line</td>
+        <td>Nakreslí nekoneènú priamku.</td>
+    </tr>
+    <tr>
+        <td><img src="icoMultiline.gif" width="24" height="23"></td>
+        <td>mline</td>
+        <td>Draw/Multiline</td>
+        <td>Vytvorí dvojitú úseèku (z oblúkovıch a
+        úseèkovıch segnemtov).</td>
+    </tr>
+    <tr>
+        <td><img src="icoPolyline.gif" width="24" height="23"></td>
+        <td>pline</td>
+        <td>Draw/Polyline</td>
+        <td>Nakreslí krivku zloenú z úseèiek a oblúkov.</td>
+    </tr>
+    <tr>
+        <td><img src="icoPolygon.gif" width="24" height="23"></td>
+        <td>polygon</td>
+        <td>Draw/Polygon</td>
+        <td>Vytvorí pravidelnı mnohouholník.</td>
+    </tr>
+    <tr>
+        <td><img src="icoRectangle.gif" width="24" height="23"></td>
+        <td>rectang</td>
+        <td>Draw/Rectangle</td>
+        <td>Nakreslí obdånik zadanı dvojicou proti¾ahlıch
+        bodov.</td>
+    </tr>
+    <tr>
+        <td><img src="icoArc.gif" width="24" height="23"></td>
+        <td>arc</td>
+        <td>Draw/Arc</td>
+        <td>Nakreslí kruhovı oblúk.</td>
+    </tr>
+    <tr>
+        <td><img src="icoCircle.gif" width="24" height="23"></td>
+        <td>circle</td>
+        <td>Draw/Circle</td>
+        <td>Nakreslí krunicu.</td>
+    </tr>
+    <tr>
+        <td><img src="icoEllipse.gif" width="24" height="23"></td>
+        <td>ellipse</td>
+        <td>Draw/Ellipse</td>
+        <td>Nakreslí elipsu (alebo eliptickı oblúk).</td>
+    </tr>
+    <tr>
+        <td><img src="icoPoint.gif" width="24" height="23"></td>
+        <td>point</td>
+        <td>Draw/Point</td>
+        <td>Nakreslí bod-znaèku.</td>
+    </tr>
+    <tr>
+        <td><img src="icoHatch.gif" width="24" height="23"></td>
+        <td>bhatch</td>
+        <td>Draw/Hatch</td>
+        <td>Vyšrafuje uzavretú oblas ohranièujúcu zadanı
+        bod.</td>
+    </tr>
+    <tr>
+        <td><img src="icoMultilineText.gif" width="24"
+        height="23"></td>
+        <td>mtext</td>
+        <td>Draw/Text/Multiline Text</td>
+        <td>Vytvorí odstavcovı text.</td>
+    </tr>
+</table>
+
+<p><strong>Modify - Zmeny vo vıkrese</strong> (panel je
+ukotvenı v ¾avej èasi hlavného okna):</p>
+
+<p><img src="icoToolbar-Modify.gif" width="404" height="52"></p>
+
+<table border="0">
+    <tr>
+        <td><strong>Ikona</strong></td>
+        <td><strong>Príkaz</strong></td>
+        <td><strong>Menu</strong></td>
+        <td><strong>Popis</strong></td>
+    </tr>
+    <tr>
+        <td><img src="icoErase.gif" width="24" height="23"></td>
+        <td>erase</td>
+        <td>Modify/Erase</td>
+        <td>Vymae objekty z vıkresu.</td>
+    </tr>
+    <tr>
+        <td><img src="icoCopyObject.gif" width="24" height="23"></td>
+        <td>copy</td>
+        <td>Modify/Copy</td>
+        <td>Skopíruje vybrané objekty.</td>
+    </tr>
+    <tr>
+        <td><img src="icoMirror.gif" width="24" height="23"></td>
+        <td>mirror</td>
+        <td>Modify/Mirror</td>
+        <td>Vytvorí zrkadlovú kópiu vybranıch objektov.</td>
+    </tr>
+    <tr>
+        <td><img src="icoMove.gif" width="24" height="23"></td>
+        <td>move</td>
+        <td>Modify/Move</td>
+        <td>Posunie vybrané objekty ku zadanému bodu alebo o
+        zadanú vzdialenos.</td>
+    </tr>
+    <tr>
+        <td><img src="icoRotate.gif" width="24" height="23"></td>
+        <td>rotate</td>
+        <td>Modify/Rotate</td>
+        <td>Otoèí vybrané objekty o zadanı uhol okolo
+        zadaného referenèného bodu.</td>
+    </tr>
+    <tr>
+        <td><img src="icoTrim.gif" width="24" height="23"></td>
+        <td>trim</td>
+        <td>Modify/Trim</td>
+        <td>Oree objekt pod¾a druhého objektu.</td>
+    </tr>
+    <tr>
+        <td><img src="icoChamfer.gif" width="24" height="23"></td>
+        <td>chamfer</td>
+        <td>Modify/Chamfer</td>
+        <td>Vytvorí skosenie medzi dvoma vybranımi hranami.</td>
+    </tr>
+    <tr>
+        <td><img src="icoFillet.gif" width="24" height="23"></td>
+        <td>fillet</td>
+        <td>Modify/Fillet</td>
+        <td>Vytvorí zaoblenie medzi dvoma vybranımi hranami.</td>
+    </tr>
+</table>
+
+<p align="left"><strong>Dimension - Kótovanie</strong> (panel je
+potrebné zapnú príkazom <strong>toolbar</strong> alebo cez
+Menu: <strong>View/Toolbars</strong>):</p>
+
+<p align="left"><img src="icoToolbar-Dimension.gif" width="416"
+height="52"></p>
+
+<table border="0">
+    <tr>
+        <td>Ikona</td>
+        <td>Príkaz</td>
+        <td>Menu</td>
+        <td>Popis</td>
+    </tr>
+    <tr>
+        <td><img src="icoLinearDimension.gif" width="24"
+        height="23"></td>
+        <td>dimlinear</td>
+        <td>Dimension/Linear</td>
+        <td>Vytvorí lineárnu kótu. Typ kóty
+        (horizontálne/vertikálne) je urèenı automaticky.</td>
+    </tr>
+    <tr>
+        <td><img src="icoAlignedDimension.gif" width="24"
+        height="23"></td>
+        <td>dimaligned</td>
+        <td>Dimension/Aligned</td>
+        <td>Vytvorí šikmú kótu, ktorá je rovnobená s
+        vybranım objektom resp. spojnicou.</td>
+    </tr>
+    <tr>
+        <td><img src="icoRadiusDimension.gif" width="24"
+        height="23"></td>
+        <td>dimradius</td>
+        <td>Dimension/Radius</td>
+        <td>Okótuje polomer vybranej krunice alebo oblúka.</td>
+    </tr>
+    <tr>
+        <td><img src="icoDiameterDimension.gif" width="24"
+        height="23"></td>
+        <td>dimdiameter</td>
+        <td>Dimension/Diameter</td>
+        <td>Okótuje priemer vybranej krunice alebo oblúka.</td>
+    </tr>
+    <tr>
+        <td><img src="icoAngularDimension.gif" width="24"
+        height="23"></td>
+        <td>dimangular</td>
+        <td>Dimension/Angular</td>
+        <td>Vytvorí kótu uhla.</td>
+    </tr>
+    <tr>
+        <td><img src="icoCenterMark.gif" width="24" height="23"></td>
+        <td>dimcenter</td>
+        <td>Dimension/Center Mark</td>
+        <td>Vytvorí stredovú znaèku krunice alebo oblúka.</td>
+    </tr>
+</table>
+
+<p align="center"><font size="4"><img src="L_Stones.gif"
+width="100%" height="30"></font></p>
+
+<h1 align="center"><a name="UchopenieObjektov"></a>Uchopenie
+objektov</h1>
+
+<ul>
+    <li>Pouíva sa, keï na vızvu pre zadanie bodu potrebujeme
+        chyti nejakı z <strong>vıznamnıch bodov.</strong></li>
+    <li>AutoCAD automaticky vyh¾adá bod v zadanej oblasti,
+        ktorı odpovedá <strong>nastavenému filtru</strong>,
+        prièom môeme nastavi aj kombináciu viacej reimov
+        uchopenia.</li>
+    <li>Nájdenı bod je vdy zvıraznenı pomocou grafickej
+        znaèky priamo vo vıkrese.</li>
+    <li>Pokia¾ je tlaèítko <strong>OSNAP</strong> zašednuté,
+        nie je aktívny iaden reim uchopenia!</li>
+</ul>
+
+<p>AutoCAD umoòuje vyh¾adávanie nasledujúcich bodov
+(dialóg je potrebné otvori príkazom <strong>ddosnap</strong>
+alebo cez Menu: <strong>Tools/Object Snap Settings</strong>):</p>
+
+<table border="0">
+    <tr>
+        <td><strong>SVK</strong></td>
+        <td><strong>Running Osnap</strong></td>
+        <td><strong>Popis</strong></td>
+    </tr>
+    <tr>
+        <td><strong>Koncovı</strong></td>
+        <td><img src="OSnap-Endpoint.gif" alt="Endpoint"
+        width="110" height="22"></td>
+        <td>Vyh¾adá koncovı bod vybraného objektu.</td>
+    </tr>
+    <tr>
+        <td><strong>Polovica</strong></td>
+        <td><img src="OSnap-Midpoint.gif" alt="Midpoint"
+        width="110" height="22"></td>
+        <td>Vyh¾adá polovicu vybraného objektu.</td>
+    </tr>
+    <tr>
+        <td>Stred</td>
+        <td><img src="OSnap-Center.gif" alt="Center" width="110"
+        height="22"></td>
+        <td>Vyh¾adá stred krunice, oblúka alebo elipsy.</td>
+    </tr>
+    <tr>
+        <td>Bod</td>
+        <td><img src="OSnap-Node.gif" alt="Node" width="110"
+        height="22"></td>
+        <td>Pokia¾ je v terèíku vıberu bod, vráti jeho
+        súradnice.</td>
+    </tr>
+    <tr>
+        <td>Kvadrant</td>
+        <td><img src="OSnap-Quadrant.gif" alt="Quadrant"
+        width="110" height="22"></td>
+        <td>Vyh¾adá kvadrant krunice.</td>
+    </tr>
+    <tr>
+        <td><strong>Prieseèník</strong></td>
+        <td><img src="OSnap-Intersection.gif" alt="Intersection"
+        width="110" height="22"></td>
+        <td>Vyh¾adá prieseèník 2 entít (pokia¾ neexistuje
+        tak myslenı prieseèník).</td>
+    </tr>
+    <tr>
+        <td>Referenènı</td>
+        <td><img src="OSnap-Insertion.gif" alt="Insertion"
+        width="110" height="22"></td>
+        <td>Vráti súradnice vkladaného bodu textu alebo bloku.</td>
+    </tr>
+    <tr>
+        <td>Kolmo</td>
+        <td><img src="OSnap-Perpendicular.gif"
+        alt="Perpendicular" width="110" height="22"></td>
+        <td>Vyh¾adá bod, ktorı vytvorí kolmicu ku
+        predchádzajúcemu bodu.</td>
+    </tr>
+    <tr>
+        <td>Dotyènica</td>
+        <td><img src="OSnap-Tangent.gif" alt="Tangent"
+        width="110" height="22"></td>
+        <td>Vyh¾adá bod dotykového spojenia medzi úseèkou a
+        krunicou (alebo medzi 2 oblúkmi).</td>
+    </tr>
+    <tr>
+        <td>Najbliší</td>
+        <td><img src="OSnap-Nearest.gif" alt="Nearest"
+        width="110" height="22"></td>
+        <td>Vráti súradnice najblišieho bodu leiaceho na
+        vybranom objekte.</td>
+    </tr>
+</table>
+
+<p><font size="4"><img src="L_Stones.gif" width="100%"
+height="30"></font></p>
+
+<h1 align="center"><a name="Priklady"></a>Príklady</h1>
+
+<h2 align="left"><a name="Pr1_Usecka"></a>Pr.1: Úseèka</h2>
+
+<p align="left"><img src="pr1-Usecka.gif" width="400"
+height="130"></p>
+
+<p align="left">a) <strong>Zadanie súradníc ukázaním</strong>,
+tak e ukáeme kurzorom do nejakého miesta na kresliacej
+ploche (mono poui <a href="#UchopenieObjektov">prichytávanie</a>
+na vıznamné body):</p>
+<div align="left">
+
+<pre><img src="icoLine.gif" width="24" height="23"> Command: <strong>line</strong></pre>
+</div><div align="left">
+
+<pre>From point: <em>ukáeme do bodu 1</em></pre>
+</div><div align="left">
+
+<pre>To point: <em>ukáeme do bodu 2</em></pre>
+</div><div align="left">
+
+<pre>To point: <em>Enter</em></pre>
+</div>
+
+<p align="left">b) <strong>Zadanie absolútnych súradníc</strong>:</p>
+<div align="left">
+
+<pre><img src="icoLine.gif" width="24" height="23"> Command: <strong>line</strong></pre>
+</div><div align="left">
+
+<pre>From point: 100,100</pre>
+</div><div align="left">
+
+<pre>To point: 300,200</pre>
+</div><div align="left">
+
+<pre>To point: <em>Enter</em></pre>
+</div>
+
+<p align="left">c) <strong>Zadanie relatívnej súradnice</strong>
+(vzh¾adom voèi posledne zadanej súradnici):</p>
+<div align="left">
+
+<pre><img src="icoLine.gif" width="24" height="23"> Command: <strong>line</strong></pre>
+</div><div align="left">
+
+<pre>From point: 100,100</pre>
+</div><div align="left">
+
+<pre>To point: @200,100</pre>
+</div><div align="left">
+
+<pre>To point: <em>Enter</em></pre>
+</div>
+
+<hr>
+
+<h2><a name="Pr2_Trojuholnik"></a>Pr.2: Trojuholník</h2>
+
+<p><img src="pr2-Trojuholnik.gif" width="400" height="130"></p>
+
+<p>a) <strong>Zadanie relatívnych súradníc</strong> (od
+posledne zadaného bodu):</p>
+
+<pre><img src="icoLine.gif" width="24" height="23"> Command: <strong>line</strong></pre>
+
+<pre>From point: <em>ukáeme do bodu 1</em></pre>
+
+<pre>To point: @200,0</pre>
+
+<pre>To point: @0,100</pre>
+
+<pre>To point: <strong>c</strong> <em>Enter</em></pre>
+
+<p>b) <strong>Zadanie polárnych súradníc</strong> (dåka a
+uhol od posledne zadaného bodu):</p>
+
+<pre><img src="icoLine.gif" width="24" height="23"> Command: <strong>line</strong></pre>
+
+<pre>From point: <em>ukáeme do bodu 1</em></pre>
+
+<pre>To point: @200&lt;0</pre>
+
+<pre>To point @100&lt;90</pre>
+
+<pre>To point: <strong>c</strong> <em>Enter</em></pre>
+
+<hr>
+
+<h2><a name="Pr3_Obdlznik"></a>Pr.3: Obdånik</h2>
+
+<p><img src="pr3-Obdlznik.gif" width="400" height="130"></p>
+
+<p>a) <strong>Zadanie relatívnych súradníc</strong>:</p>
+
+<pre><img src="icoLine.gif" width="24" height="23"> Command:<strong> line</strong></pre>
+
+<pre>From point: <em>ukáeme do bodu 1</em></pre>
+
+<pre>To point: @300,0</pre>
+
+<pre>To point: @0,200</pre>
+
+<pre>To point: @-300,0</pre>
+
+<pre>To point: <strong>c</strong> <em>Enter</em></pre>
+
+<p>b) <strong>Pouitie pravouhlého kreslenia</strong>:</p>
+
+<pre>Command: <strong>ortho on</strong> ... <em>zapnutie pravouhlého kreslenia</em> </pre>
+
+<pre><em>(alebo stlaèi klávesu &lt;F8&gt; alebo dvojkliknú dole na </em><a
+href="#StavovaLista"><em>stavovej lište</em></a><em> na ORTHO)</em></pre>
+
+<pre><img src="icoLine.gif" width="24" height="23"> Command:<strong> line</strong></pre>
+
+<pre>To point: <em>ukáeme do bodu 1</em></pre>
+
+<pre>To point: <em>ukáeme napravo a z klávesnice zadáme</em> <strong>300</strong></pre>
+
+<pre>To point: <em>ukáeme nahor a z klávesnice zadáme </em><strong>200</strong></pre>
+
+<pre>To point: <em>ukáeme dolava a z klávesnice zadáme </em><strong>300</strong></pre>
+
+<pre>To point: <em>z klávesnice napíšeme </em><strong>c</strong><em> a tım uzatvoríme obdånik</em></pre>
+
+<pre>Command: <strong>ortho off</strong> ... vypnutie pravouhlého kreslenia</pre>
+
+<p>c) <strong>Priame pouitie obdånika/rectangle</strong>:</p>
+
+<pre><img src="icoRectangle.gif" width="24" height="23"> Command: <strong>rectangle</strong></pre>
+
+<pre>Chamfer/Elevation/Fillet/Thickness/Width/&lt;<strong>First corner</strong>&gt;: <em>ukáeme do bodu 1 (alebo ho zadáme)</em></pre>
+
+<pre>Other corner: @300,200</pre>
+
+<p><font size="4"><img src="L_Stones.gif" width="100%"
+height="30"></font></p>
+
+<p><a name="End"></a>Vytvoril: Marek Macho, 1999</p>
+
+<p>Literatúra: Jan Liška: AutoCAD LT 97 - Podrobná príruèka
+s uèebnicou</p>
+</body>
+</html>
